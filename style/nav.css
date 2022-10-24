@@ -1,0 +1,38 @@
+nav {
+    /* background: rgba(240, 118, 17, 0.6); */
+    background-color: rgba(80, 80, 80, 0.6); ;
+    width: max-content;
+    padding: 0.4rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.7rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    z-index: 9999999999999;
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+.fa-solid{
+    color:#fff
+}

@@ -1,0 +1,61 @@
+#values_company {
+  height: 100vh;
+
+}
+
+
+#row {
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 19px;
+  text-align: justify;
+  letter-spacing: 1.1px;
+}
+
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.title_card {
+  /* font-family: 'Bebas Neue', cursive; */
+  font-size: 40px;
+  position: relative;
+  color: #344055;
+  margin: 2%;
+  text-align: center;
+}
+
+.blue {
+  border-left: 8px solid #063970;
+}
+
+.green {
+  border-left: 8px solid #3bb54a;
+}
+
+.red {
+  border-left: 8px solid #b3404a;
+}
